@@ -6,16 +6,6 @@ featured_image = "/img/projects/emojion/featured.png"
 
 +++
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  
-
-- [Overview](#overview)
-- [Contributing](#contributing)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
 # Current Status
 
 This project is currently in planning stages. It will become open to contribution for the month of May 2017.
