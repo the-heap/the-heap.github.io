@@ -1,0 +1,22 @@
+.site-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $dark-blue ;
+  color: $text-white;
+  @include header_primary(18px);
+
+  // the actual text of the header
+  .site_header {
+    @include header_primary(32px);
+    padding: 1rem 2rem;
+    padding-left: 0;
+    color: $text-white;
+  }
+
+  .header_logo {
+    display: flex;
+    align-items: center;
+  }
+
+}

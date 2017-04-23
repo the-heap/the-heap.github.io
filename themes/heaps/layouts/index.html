@@ -1,0 +1,23 @@
+<!-- This is the home page -->
+{{ partial "header.html" . }}
+
+<div class="Home site-content">
+
+  <!-- CURRENT PROJECT BANNER -->
+  <section class="current_project">
+    current project
+  </section>
+
+  <!--Articles and Podcast -->
+  <section class="articles_podcasts">
+    <!--Recent Podcast Episode-->
+    <div class="recent_podcasts"></div>
+
+    <!--Recent articles  -->
+    <div class="recent_articles"></div>
+  </section>
+
+{{ .Content }}
+</div>
+
+{{ partial "footer.html" . }} 

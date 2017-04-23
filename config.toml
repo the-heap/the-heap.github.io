@@ -1,10 +1,11 @@
 baseurl = "https://the-heap.github.io/"
 title = "The Heap"
-theme = "ghostwriter"
+theme = "heaps"
 languageCode = "en-us"
 copyright = "THE HEAP"
 #googleAnalytics = "XXX"
 #disqusShortname = "XXX"
+Summary = true
 
 [Author]
     name = "|"
@@ -18,38 +19,31 @@ copyright = "THE HEAP"
     headline = "THE HEAP"
     description = "Open Source Project Portal"
     github = "https://github.com/the-heap"
-    #gitlab = "https://gitlab.com/XXX"
-    #linkedin = "https://linkedin.com/in/XXX/"
-    #gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/theheap_"
-    #stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
     #email = "XXX@example.com"
-    opengraph = true
     shareTwitter = true
-    shareFacebook = false
-    shareGooglePlus = false
-    shareLinkedIn = false
     dateFormat = "Mon, Jan 2, 2006"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    # name = "Articles"
-    # url = "/articles"
-    # weight = 2
-
-#[[menu.main]]
-    # name = "Projects"
-    # url = "/project/"
-    # weight = 2
+    name = "Articles"
+    url = "/articles"
+    weight = 2
 
 [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+
+[[menu.footer]]
     name = "FAQ"
     url = "/page/faq/"
     weight = 3
 
-[[menu.main]]
+[[menu.footer]]
     name = "About"
     url = "/page/about/"
-    weight = 1
+    weight = 4
+

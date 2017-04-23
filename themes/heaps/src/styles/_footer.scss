@@ -1,0 +1,29 @@
+.site-footer {
+  background: $dark-blue;
+  height: 50px;
+  padding: 10px;
+  color: $text-white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .title {
+    padding: 0 2rem;
+    color: white;
+    border: 0;
+    border-right: 1px solid white;
+    border-style: dotted;
+  }
+
+  .footer-link {
+    list-style-type: none;
+    color : red;
+    padding: 0 0 0 2rem;
+  }
+}

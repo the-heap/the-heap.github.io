@@ -1,9 +1,9 @@
 +++
 date = "2017-04-14T14:09:37-04:00"
-title = "About The Heap"
+title = "About"
 tags = []
 author = "teesloane"
-description = "~"
+description = "Get to know The Heap"
 
 +++
 
