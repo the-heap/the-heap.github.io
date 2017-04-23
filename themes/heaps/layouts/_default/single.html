@@ -3,6 +3,7 @@
 <div class="container">
     {{ partial "post-header" . }}
     <article class="post-container">
+        {{ with .Params.featured_image }}<img class="featured_image" src="{{ . }}">{{ end }}
         {{ .Content }}
     </article>
 </div>

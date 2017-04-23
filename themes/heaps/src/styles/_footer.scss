@@ -1,29 +1,51 @@
 .site-footer {
-  background: $dark-blue;
+  background: $primary-dark;
   height: 50px;
   padding: 10px;
   color: $text-white;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   display: flex;
-
+  @include header_primary(14px);
   ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
-
   .title {
     padding: 0 2rem;
     color: white;
     border: 0;
-    border-right: 1px solid white;
-    border-style: dotted;
+    border-right: 2px solid white;
   }
-
   .footer-link {
     list-style-type: none;
-    color : red;
     padding: 0 0 0 2rem;
+  }
+  // SECTION: Links
+  .footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  } 
+
+  .social-icon {
+    background: $primary-light;
+    color: $primary-dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-left: 2rem;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    padding: 2px;
+    transition: all 0.2s ease;
+    &:hover {
+      background: $primary-dark;
+      color: $accent-light;
+    }
   }
 }
