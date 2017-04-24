@@ -27,7 +27,7 @@ Summary = true
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
-[[menu.main]]
+# [[menu.main]]
     name = "Articles"
     url = "/article"
     weight = 2

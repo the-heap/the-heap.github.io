@@ -4,3 +4,23 @@
   text-transform: uppercase;
   font-family: $font-accent;
 }
+
+
+@mixin phone {
+  @media(max-width: 500px) {
+    display: none;
+  }
+}
+
+
+@mixin laptop {
+  @media (max-width: 1600px) { @content; }
+}
+
+@mixin tablet {
+  @media (max-width: 1250px) { @content; }
+}
+
+@mixin phone {
+  @media (max-width: 600px) { @content; }
+}

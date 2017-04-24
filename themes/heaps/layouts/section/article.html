@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 <div class="List container">
     <h1 class="page-title">{{ .Title }}</h1>
-    <!-- create a suimmary -->
     <div class="post-list">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "article") }} {{ range $paginator.Pages }}
         <div class="summary">
