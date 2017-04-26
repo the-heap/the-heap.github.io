@@ -3,3 +3,4 @@ themes/ghostwriter
 node_modules
 **/node_modulesa
 public
+**/.DS_Store
