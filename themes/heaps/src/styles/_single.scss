@@ -17,9 +17,14 @@
   .post_title {
     @include header_primary(32px);
   }
+
 }
 
 .post-container .featured_image {
   width: 100%;
   margin: 1rem 0;
+}
+
+.subscribe-btn {
+  background: red;
 }

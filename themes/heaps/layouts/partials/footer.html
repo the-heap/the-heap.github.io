@@ -31,7 +31,7 @@
     {{ end }}
 
     <a id="open-popup" class="social-icon">
-      <i class="fa fa-envelope"></i>
+      <i class="fa fa-envelope subscribeBtn"></i>
     </a>
   </section>
 </footer>
@@ -51,14 +51,14 @@ function showMailingPopUp() {
 };
 
 // trigger the subscribe button.
-var subscribeBtn = document.getElementById('open-popup');
-if (subscribeBtn){
-  subscribeBtn.addEventListener('click', function(){
+var subscribeButtons = [].slice.call(document.querySelectorAll(".subscribeBtn"));
+
+subscribeButtons.forEach(function(button){
+  button.addEventListener('click', function(){
     showMailingPopUp();
   })
-}
+})
 
-console.log(subscribeBtn)
 </script>
 
 </body>

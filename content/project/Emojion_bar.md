@@ -3,12 +3,13 @@
 date = "2017-04-22T20:26:43-04:00"
 title = "Emojion Bar"
 featured_image = "/img/projects/emojion/featured.png"
+has_subscribe_btn = true
 
 +++
 
 # Current Status
 
-This project is currently in planning stages. It will become open to contribution for the month of May 2017.
+This project is currently in **planning stages**. It will become open to contribution for the month of May 2017.
 
 # Description
 
