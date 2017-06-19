@@ -1,4 +1,4 @@
-baseurl = "https://the-heap.github.io/"
+baseurl = "http://theheap.us/"
 title = "The Heap"
 theme = "heaps"
 languageCode = "en-us"
