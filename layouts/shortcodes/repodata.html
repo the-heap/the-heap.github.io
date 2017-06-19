@@ -11,6 +11,15 @@
 
 
   <h3> Contributor Data</h3>
-
-  {{$contributors}}
+  <ul class="CONTRIBUTOR_group">
+  {{ range $contributors }}
+  <li class="CONTRIBUTOR_single">
+    <img class="CONTRIBUTOR_photo" src="{{.avatar_url}}" alt="">
+    <div class="CONTRIBUTOR_data">
+      <a target="_blank" href="{{.html_url}}">{{.login}}</a>
+      <div class="CONTRIBUTOR_amount">Contributions: {{.contributions}}</div>
+    </div>
+  </li>
+  {{ end }}
+  </ul>
 </div>

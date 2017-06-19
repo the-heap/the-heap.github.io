@@ -1,6 +1,6 @@
 +++
 date = "2017-06-18T18:24:31-04:00"
-title = "Reflection 1"
+title = "Reflection: Emojion Bar"
 
 +++
 
@@ -56,6 +56,7 @@ Here are some quick thoughts from my perspective on managing this project.
 While running the project I asked for some contributor feedback. Here is some of the feedback.:
 
 **How easy was it to get started contributing?**
+
 > Decently easy, a bit intimidating since I have the fear that I'm wasting time working on a piece of code someone else may already be working on.
 
 **What was the most exciting thing about this project?**
