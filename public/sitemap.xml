@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://the-heap.github.io/article/Heap_reflection_01/</loc>
+    <lastmod>2017-06-18T18:24:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/project/17_05_Emojion_bar/</loc>
+    <lastmod>2017-04-22T20:26:43-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/page/faq/</loc>
+    <lastmod>2017-04-14T19:20:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/page/about/</loc>
+    <lastmod>2017-04-14T14:09:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/article/</loc>
+    <lastmod>2017-06-18T18:24:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/page/</loc>
+    <lastmod>2017-04-14T19:20:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/project/</loc>
+    <lastmod>2017-04-22T20:26:43-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://the-heap.github.io/</loc>
+    <lastmod>2017-06-18T18:24:31-04:00</lastmod>
+  </url>
+  
+</urlset>
