@@ -3,3 +3,6 @@
 
 dev:
 	cd site && hugo server 
+
+build:
+	cd site && hugo 
