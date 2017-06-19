@@ -1,13 +1,6 @@
-# Victor Hugo
+# The Heap Site 
 
-**A [Hugo](https://gohugo.io/) boilerplate for creating truly epic websites**
-
-This is a boilerplate for using Hugo as a static site generator and Gulp + Webpack as your
-asset pipeline.
-
-It's setup to use post-css and babel for CSS and JavaScript.
-
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+This project structure was inspired / forked from Netlify's excellent Victor Hugo project.
 
 ## Usage
 
@@ -47,20 +40,13 @@ npm run build
 |  |  |--partials      // This is where includes live
 |  |  |--index.html    // The index page
 |  |--static           // Files in here ends up in the public folder
+|  |--scripts          // General scripts -> pull data etc.
 |--src                 // Files that will pass through the asset pipeline
 |  |--css              // CSS files in the root of this folder will end up in /css/...
 |  |--js               // app.js will be compiled to /app.js with babel
 ```
 
-## Basic Concepts
-
-You can read more about Hugo's template language in their documentation here:
-
-https://gohugo.io/templates/overview/
-
-The most useful page there is the one about the available functions:
-
-https://gohugo.io/templates/functions/
+## Concepts
 
 For assets that are completely static and don't need to go through the asset pipeline,
 use the `site/static` folder. Images, font-files, etc, all go there.
@@ -85,7 +71,3 @@ Now netlify will build and deploy your site whenever you push to git.
 You can also click this button:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/eliwilliamson/victor-hugo)
-
-
-
-## Enjoy!!
