@@ -1,3 +1,47 @@
-baseurl = "/"
+baseurl = "https://the-heap.github.io/"
+title = "The Heap"
+theme = "heaps"
 languageCode = "en-us"
-title = "My New Hugo Site"
+copyright = "THE HEAP"
+#googleAnalytics = "XXX"
+#disqusShortname = "XXX"
+Summary = true
+
+[Author]
+    # name = "|"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "THE HEAP"
+    description = "Open Source Project Portal"
+    github = "https://github.com/the-heap"
+    twitter = "https://twitter.com/theheap_"
+    #email = "XXX@example.com"
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Articles"
+    url = "/article"
+    weight = 2
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 1
+
+[[menu.footer]]
+    name = "FAQ"
+    url = "/page/faq/"
+    weight = 3
+
+[[menu.footer]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4

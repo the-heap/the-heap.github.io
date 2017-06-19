@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  
+
+  .current_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-grow: 1;
+    background: black;
+    background-image: url('/img/bg_grey.png');
+    min-height: 400px;
+    padding: 40px;
+    @include header_primary(20px);
+    color: $text-white;
+
+    // "current project" text
+    .sub-header {
+      margin: 0;
+    } 
+
+    .title {
+      display: flex;
+      @include header_primary(80px);
+      margin: 0;
+      line-height: 1;
+
+      a {
+        // transition: all 0.1s ease-in-out;
+        padding-bottom: 5px;
+      }
+
+      a:hover {
+        color: $accent-light;
+        padding-bottom:  0px;
+        border-bottom: 5px solid $text-blue;
+      }
+    }
+  }
+
+}

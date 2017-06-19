@@ -1,0 +1,16 @@
+<div>
+  <!-- Variables -->
+  {{ $repo := index .Site.Data.repodata (.Get 0)}}
+  {{ $contributors := $repo.contributors}}
+
+  <h3> Repo Data</h3>
+  <ul>
+    <li>Stars: {{$repo.stars}}</li>
+    <li>Forks: {{$repo.forks}}</li>
+  </ul>
+
+
+  <h3> Contributor Data</h3>
+
+  {{$contributors}}
+</div>
