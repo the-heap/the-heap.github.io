@@ -2,33 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on The Heap</title>
-    <link>https://the-heap.github.io/project/index.xml</link>
+    <link>https://theheap.us/project/</link>
     <description>Recent content in Projects on The Heap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>THE HEAP</copyright>
     <lastBuildDate>Sat, 22 Apr 2017 20:26:43 -0400</lastBuildDate>
-    <atom:link href="https://the-heap.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://theheap.us/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Emojion Bar</title>
-      <link>https://the-heap.github.io/project/17_05_Emojion_bar/</link>
+      <link>https://theheap.us/project/17_05_emojion_bar/</link>
       <pubDate>Sat, 22 Apr 2017 20:26:43 -0400</pubDate>
       
-      <guid>https://the-heap.github.io/project/17_05_Emojion_bar/</guid>
-      <description>
-
-&lt;h1 id=&#34;current-status&#34;&gt;Current Status&lt;/h1&gt;
-
-&lt;p&gt;This project is currently in &lt;strong&gt;planning stages&lt;/strong&gt;. It will become open to contribution for the month of May 2017.&lt;/p&gt;
-
-&lt;h1 id=&#34;links-et-al&#34;&gt;Links et. al&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/the-heap/Emojions&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https:/www.youtube.com/playlist?list=PL7mNTF1eVPB679r1ZBCCPx4SaaOssZKEL&#34;&gt;Youtube Playlist&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://theheap.us/project/17_05_emojion_bar/</guid>
+      <description> Current Status This project is currently in planning stages. It will become open to contribution for the month of May 2017.
+Links et. al  Repository Youtube Playlist  </description>
     </item>
     
   </channel>

@@ -2,270 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>THE HEAP on The Heap</title>
-    <link>https://the-heap.github.io/index.xml</link>
+    <link>https://theheap.us/</link>
     <description>Recent content in THE HEAP on The Heap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>THE HEAP</copyright>
     <lastBuildDate>Sun, 18 Jun 2017 18:24:31 -0400</lastBuildDate>
-    <atom:link href="https://the-heap.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://theheap.us/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Reflection 1</title>
-      <link>https://the-heap.github.io/article/Heap_reflection_01/</link>
+      <title>Reflection: Emojion Bar</title>
+      <link>https://theheap.us/article/heap_reflection_01/</link>
       <pubDate>Sun, 18 Jun 2017 18:24:31 -0400</pubDate>
       
-      <guid>https://the-heap.github.io/article/Heap_reflection_01/</guid>
-      <description>
-
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-
-&lt;p&gt;A post to discuss and reflect some thoughts on running a &lt;em&gt;The Heap&lt;/em&gt; project for the first time.&lt;/p&gt;
-
-&lt;p&gt;The TL;DR / Shortlist of things I hope to expand on in this post are the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This project perhaps too ambitious by having three components (ie three different programming terminology)&lt;/li&gt;
-&lt;li&gt;Naming things is hard.&lt;/li&gt;
-&lt;li&gt;I should have pointers to resources for complete beginners &amp;ndash; setting up a dev environment, contributing on github/using git.&lt;/li&gt;
-&lt;li&gt;Pair programming was a success&lt;/li&gt;
-&lt;li&gt;Collaborating with complete strangers was a success&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;project-recap&#34;&gt;Project Recap&lt;/h1&gt;
-
-&lt;p&gt;Our goal for the inaugaural Heap project was to create an [embeddeable emoji bar]()  . The project opened on May 1st and continued in a maintained state until June 1st.&lt;/p&gt;
-
-&lt;p&gt;The project involved three different languages: Javascript, Elm, and Python; although the latter was not added until half way through the project. These three languages each corresponded to a idfferent part of the project/platform that we were building&amp;ndash;the idea spanned multiple &amp;ldquo;components&amp;rdquo; - a web API, an embeddable snippet and aclient website.&lt;/p&gt;
-
-&lt;h1 id=&#34;project-stats&#34;&gt;Project Stats&lt;/h1&gt;
-
-&lt;div&gt;
-  
-  
-  
-
-  &lt;h3&gt; Repo Data&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Stars: 15&lt;/li&gt;
-    &lt;li&gt;Forks: 12&lt;/li&gt;
-  &lt;/ul&gt;
-
-
-  &lt;h3&gt; Contributor Data&lt;/h3&gt;
-  &lt;ul&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars3.githubusercontent.com/u/12987958?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/teesloane&#34;&gt;teesloane&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/20718044?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/mackiedrew&#34;&gt;mackiedrew&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/7574432?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/qazqwezxc&#34;&gt;qazqwezxc&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars0.githubusercontent.com/u/4659534?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/ChristofLee&#34;&gt;ChristofLee&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars0.githubusercontent.com/u/5018554?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/ericbastarache&#34;&gt;ericbastarache&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/12610449?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/gilbertkennen&#34;&gt;gilbertkennen&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars0.githubusercontent.com/u/563301?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/mihok&#34;&gt;mihok&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars2.githubusercontent.com/u/6043697?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/venomnert&#34;&gt;venomnert&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/4494382?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/broneks&#34;&gt;broneks&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/1452752?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/hyperwidget&#34;&gt;hyperwidget&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;li&gt;
-    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/22378241?v=3&#34; alt=&#34;&#34;&gt;
-    &lt;a href=&#34;https://api.github.com/users/choilmto&#34;&gt;choilmto&lt;/a&gt;
-  &lt;/li&gt;
-  
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&#34;start-stop-continue&#34;&gt;Start, Stop, Continue&lt;/h1&gt;
-
-&lt;p&gt;Here are some quick thoughts from my perspective on managing this project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;To Stop Doing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Splitting up github issues / roadmaps unless they really need to be seperated.&lt;/li&gt;
-&lt;li&gt;Trying to change the dev environment half way through the project (I spent three nights in a row trying to make Docker into a viable dev environment—that time could have been better used)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To Start Doing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Linking to other resources for helping beginners get started&lt;/li&gt;
-&lt;li&gt;Make better use of the mailing list that I started&lt;/li&gt;
-&lt;li&gt;Perhaps create a public calendar on Gcal so people can see dates if needed. Might be overkill on the tools.&lt;/li&gt;
-&lt;li&gt;Find ways to automate making videos easier.&lt;/li&gt;
-&lt;li&gt;Make the videos shorter in length and more to the point&lt;/li&gt;
-&lt;li&gt;Tweet more&lt;/li&gt;
-&lt;li&gt;Find more ways to highlight the hard work of contributors.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To Continue Doing:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Keep posting about the  project on reddit / slack channels. I managed to get a few new friends come in and help the project.&lt;/li&gt;
-&lt;li&gt;Videos: I didn&amp;rsquo;t have enough volume to get beneficial metrics on the video to make any decisions on whether or not I should continue pursuing videos or not (video content benefits are a slow ramp up usually)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;contributor-feedback&#34;&gt;Contributor Feedback&lt;/h1&gt;
-
-&lt;p&gt;While running the project I asked for some contributor feedback. Here is some of the feedback.:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How easy was it to get started contributing?&lt;/strong&gt;
-&amp;gt; Decently easy, a bit intimidating since I have the fear that I&amp;rsquo;m wasting time working on a piece of code someone else may already be working on.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What was the most exciting thing about this project?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Feeling accountable, having a commitment to an open source project people (decently) care about.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h1&gt;
-
-&lt;p&gt;This project was fun. I learned a lot about maintaining a project — I was especially grateful to come away with knowing what the pain points can be for contributing to open source. Overally, I&amp;rsquo;m quite impressed with how far we got in the project. I&amp;rsquo;m particularly proud of the fact that complete stranges came into the project nad contributed knowledge, code and processes that really helped to fill in my own knowledge gaps (especially in regard to using Elm).&lt;/p&gt;
-</description>
+      <guid>https://theheap.us/article/heap_reflection_01/</guid>
+      <description>Summary A post to discuss and reflect some thoughts on running a The Heap project for the first time.
+The TL;DR / Shortlist of things I hope to expand on in this post are the following:
+ This project perhaps too ambitious by having three components (ie three different programming terminology) Naming things is hard. I should have pointers to resources for complete beginners &amp;ndash; setting up a dev environment, contributing on github/using git.</description>
     </item>
     
     <item>
       <title>Emojion Bar</title>
-      <link>https://the-heap.github.io/project/17_05_Emojion_bar/</link>
+      <link>https://theheap.us/project/17_05_emojion_bar/</link>
       <pubDate>Sat, 22 Apr 2017 20:26:43 -0400</pubDate>
       
-      <guid>https://the-heap.github.io/project/17_05_Emojion_bar/</guid>
-      <description>
-
-&lt;h1 id=&#34;current-status&#34;&gt;Current Status&lt;/h1&gt;
-
-&lt;p&gt;This project is currently in &lt;strong&gt;planning stages&lt;/strong&gt;. It will become open to contribution for the month of May 2017.&lt;/p&gt;
-
-&lt;h1 id=&#34;links-et-al&#34;&gt;Links et. al&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/the-heap/Emojions&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https:/www.youtube.com/playlist?list=PL7mNTF1eVPB679r1ZBCCPx4SaaOssZKEL&#34;&gt;Youtube Playlist&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://theheap.us/project/17_05_emojion_bar/</guid>
+      <description> Current Status This project is currently in planning stages. It will become open to contribution for the month of May 2017.
+Links et. al  Repository Youtube Playlist  </description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://the-heap.github.io/page/faq/</link>
+      <link>https://theheap.us/page/faq/</link>
       <pubDate>Fri, 14 Apr 2017 19:20:11 -0400</pubDate>
       
-      <guid>https://the-heap.github.io/page/faq/</guid>
-      <description>&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Are these projects courses?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: No&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Do I have to pay &lt;code&gt;$$$&lt;/code&gt; ?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: No. This is FREEEEEEE.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Why didn&amp;rsquo;t you respond to my PR or issue?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: There&amp;rsquo;s a good chance you didn&amp;rsquo;t read the readme, contribution guidelines, or read the project roadmap. Many projects will be taking place over a short window of time and so there will not always be time to get a project done if dealing with contributions that (majorly) deviate from the purpose / goals or general roadmap.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;How come projects are only worked on for &lt;code&gt;X&lt;/code&gt; amount of time?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: First off, projects can continually be worked on for as long as they are here, hosted on &lt;code&gt;The Heap&lt;/code&gt;. &lt;em&gt;However&lt;/em&gt;, the current initiative of The Heap Projects, is to get a project done, within a window of time. Deadlines make things happen. The purpose here is to &lt;em&gt;focus&lt;/em&gt; on a single project by imposing restrictions — in this case time.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Can I keep working or contributing to this after the time window is up?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: Yes, but there is no promise that the maintainer of the project (The Heapmaster) will continue to maintain the project. You may be wasting your time creating issues or PR&amp;rsquo;s &lt;em&gt;if&lt;/em&gt; the participants have moved on in their lives to other greater things.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Why did/didn&amp;rsquo;t you choose &lt;code&gt;X&lt;/code&gt; tool or &lt;code&gt;Y&lt;/code&gt; library for &lt;code&gt;Z&lt;/code&gt; project?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: It could be that I chose to build things a certain way out of interest to try new tools, get away from tools. The main goal, is to keep things simple.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Why are you focused on keeping things simple?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: Because I believe you need to work simply / do the dumbest thing first to get things done. As developers, (I at least) I think we&amp;rsquo;re susceptible to over engineering, pre-optimizing, nerd-sniping etc. Simplicity, and boring methodologies sometimes are best.&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;Who&amp;rsquo;s running the show here?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: &lt;a href=&#34;https://github.com/teesloane/&#34;&gt;This guy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Q: &lt;em&gt;&lt;strong&gt;I don&amp;rsquo;t want to work on your project; your idea is dumb.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A: That&amp;rsquo;s not a question!&lt;/p&gt;
-</description>
+      <guid>https://theheap.us/page/faq/</guid>
+      <description>Q: Are these projects courses?
+A: No
+Q: Do I have to pay $$$ ?
+A: No. This is FREEEEEEE.
+Q: Why didn&amp;rsquo;t you respond to my PR or issue?
+A: There&amp;rsquo;s a good chance you didn&amp;rsquo;t read the readme, contribution guidelines, or read the project roadmap. Many projects will be taking place over a short window of time and so there will not always be time to get a project done if dealing with contributions that (majorly) deviate from the purpose / goals or general roadmap.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://the-heap.github.io/page/about/</link>
+      <link>https://theheap.us/page/about/</link>
       <pubDate>Fri, 14 Apr 2017 14:09:37 -0400</pubDate>
       
-      <guid>https://the-heap.github.io/page/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;the-heap-from-10-000-feet&#34;&gt;The Heap from 10,000 Feet&lt;/h2&gt;
-
-&lt;p&gt;The Heap runs open source projects. Anyone can join and collaborate.&lt;/p&gt;
-
-&lt;p&gt;Beyond facilitiating open source development, The Heap hopes to highlight the unique, creative, and hard work that other people in the open source community create.&lt;/p&gt;
-
-&lt;p&gt;Ideally this is a portal that springboards into a world of content creation (open source projects ) and content consumption (podcasts, articles, and thought pieces on programming and open source creation).&lt;/p&gt;
-
-&lt;h2 id=&#34;values&#34;&gt;Values&lt;/h2&gt;
-
-&lt;p&gt;The Heap as an &lt;em&gt;entity&lt;/em&gt; has some high hopes:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;In Coding and Collaboration&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Creating a welcoming space for people of all skills, abilities, and backgrounds to hack on things&lt;/li&gt;
-&lt;li&gt;To keep things as simple as possible to get things done.&lt;/li&gt;
-&lt;li&gt;To make and learn together&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;In the OSS world at large&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Looking at cool shit other people have made and discussing / trying to understand how it was built.&lt;/li&gt;
-&lt;li&gt;Spreading the love for open source.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you have any other questions, please check out the &lt;a href=&#34;http://localhost:1313/page/faq&#34;&gt;FAQ&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://theheap.us/page/about/</guid>
+      <description>The Heap from 10,000 Feet The Heap runs open source projects. Anyone can join and collaborate.
+Beyond facilitiating open source development, The Heap hopes to highlight the unique, creative, and hard work that other people in the open source community create.
+Ideally this is a portal that springboards into a world of content creation (open source projects ) and content consumption (podcasts, articles, and thought pieces on programming and open source creation).</description>
     </item>
     
   </channel>

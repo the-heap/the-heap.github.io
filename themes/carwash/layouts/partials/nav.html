@@ -1,14 +1,20 @@
+<!-- logo -->
+<a class="Nav-logo" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
+  <img width="64" src="/img/logo.png" />
+  <h1 class="site_header"> THE HEAP </h1>
+</a>
+
 <!-- nav links  -->
-<ul class="site-nav">
+<ul class="Nav-links">
   {{ range .Site.Menus.main.ByWeight }}
-    <li class="site-nav-item">
+    <li class="Nav-item">
         <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
     </li>
   {{ end }}
 </ul>
 
 <!-- Social Links  -->
-<section>
+<section class="Nav-social" >
     {{ with .Site.Params.twitter }}
       <a class="social-icon" title="Twitter" href="{{ . }}">
         <i class="fa fa-twitter"></i>

@@ -1,4 +1,4 @@
-.site-nav {
+.Nav {
   list-style-type: none;
   display: flex;
   align-self: center;
@@ -7,11 +7,44 @@
   .site-nav-item {
     padding: 0 2rem;
   }
+
   a {
     color: $text-dark;
+    &:hover {
+      background: $primary-dark;
+      color: $text-white;
+    }
   }
-  a:hover {
-    background: $primary-dark;
-    color: $text-white;
+}
+
+.Nav-logo {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #efefef;
+
+  img {
+    margin-left: 2rem;
+    border-left: 1px solid #efefef;
+  }
+}
+
+.Nav-links {
+  flex: 2;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin: 0;
+
+  .Nav-item {
+    padding: 0 2rem;
+  }
+}
+
+.Nav-social {
+  display: flex;
+  justify-content: space-around;
+
+  .social-icon {
+    padding: 0 2rem;
   }
 }
