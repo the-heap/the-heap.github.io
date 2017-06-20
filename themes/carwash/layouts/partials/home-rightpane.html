@@ -1,0 +1,11 @@
+  <!-- CURRENT PROJECT BANNER -->
+  <section class="News">
+
+    {{ range (where .Data.Pages "Section" "article") }}
+    <div class="text-box">
+        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    </div>
+
+    {{ end }}
+
+  </section>

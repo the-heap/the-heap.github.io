@@ -1,0 +1,11 @@
+{{partial "head.html" .}}
+
+<body>
+  <!--{{ template "_internal/google_analytics.html" . }}-->
+  <header class="site-header-box">
+    <a class ="header_logo" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
+      <img width="64" src="/img/logo.png" />
+      <h1 class="site_header"> THE HEAP </h1>
+    </a>
+    {{ partial "nav.html" . }}
+  </header>

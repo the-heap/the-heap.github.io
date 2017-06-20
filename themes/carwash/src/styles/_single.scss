@@ -1,0 +1,30 @@
+// styling for default single page
+.post_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #efefef;
+  line-height: 1.8;
+  
+  .post_description {
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+  }
+  .post_title {
+    @include header_primary(32px);
+  }
+
+}
+
+.post-container .featured_image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.subscribe-btn {
+  background: red;
+}

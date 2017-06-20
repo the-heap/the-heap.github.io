@@ -1,0 +1,27 @@
+<!-- nav links  -->
+<ul class="site-nav">
+  {{ range .Site.Menus.main.ByWeight }}
+    <li class="site-nav-item">
+        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+<!-- Social Links  -->
+<section>
+    {{ with .Site.Params.twitter }}
+      <a class="social-icon" title="Twitter" href="{{ . }}">
+        <i class="fa fa-twitter"></i>
+      </a>
+    {{ end }}
+
+    {{ with .Site.Params.github }}
+      <a class="social-icon" title="Github" href="{{ . }}">
+          <i class="fa fa-github-alt"></i>
+      </a>
+    {{ end }}
+
+    <a id="open-popup" class="social-icon">
+      <i class="fa fa-envelope subscribeBtn"></i>
+    </a>
+</section>

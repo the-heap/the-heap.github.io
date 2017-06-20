@@ -1,0 +1,67 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
+
+// LEFT PANE
+.Current_project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 50%;
+  background: black;
+  background-image: url('/img/geometry.png');
+  min-height: 400px;
+  @include header_primary(20px);
+  color: $text-white;
+  border-right: 2px dashed #efefef;
+
+
+  .title {
+    display: flex;
+    @include header_primary(80px);
+    margin: 0;
+    line-height: 1;
+
+    a {
+      // transition: all 0.1s ease-in-out;
+      padding-bottom: 5px;
+    }
+
+    a:hover {
+      color: $accent-light;
+      padding-bottom:  0px;
+      border-bottom: 5px solid $text-blue;
+    }
+  }
+
+
+  // "current project" / "get involved" text
+  .sub-header {
+    margin: 0;
+    color: $text-gray;
+  }
+
+  .tagline {
+    margin: 0;
+    color: $text-gray;
+  }
+
+  // p margins are too big
+  p {
+    margin: 1rem 0;
+  }
+}
+
+// Right Pane
+.News {
+  flex-grow: 1;
+  width: 50%;
+
+}

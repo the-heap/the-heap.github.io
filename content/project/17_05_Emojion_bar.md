@@ -3,7 +3,7 @@
 date = "2017-04-22T20:26:43-04:00"
 title = "Emojion Bar"
 featured_image = "/img/projects/emojion/featured.png"
-summary = "Building: an embeddable emoji bar to give site viewers the ability to react to your content"
+tagline = "An embedeable emoji bar to count viewer reactions."
 
 contributing_link = "https://github.com/the-heap/Emojions/blob/master/CONTRIBUTING.md"
 repo_link  = "https://github.com/the-heap/Emojions"
