@@ -1,4 +1,4 @@
-baseurl = "http://theheap.us/"
+baseurl = "https://theheap.us/"
 title = "The Heap"
 theme = "heaps"
 languageCode = "en-us"
