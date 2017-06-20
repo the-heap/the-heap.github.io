@@ -7,9 +7,11 @@
   .site-nav-item {
     padding: 0 2rem;
   }
+  a {
+    color: $text-dark;
+  }
   a:hover {
     background: $primary-dark;
-    color: $accent-light;
+    color: $text-white;
   }
-
 }

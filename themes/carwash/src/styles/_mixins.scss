@@ -5,6 +5,10 @@
   font-family: $font-accent;
 }
 
+@mixin dotted_border($side) {
+  $side: 2px dashed #efefef;
+}
+
 
 @mixin phone {
   @media(max-width: 500px) {

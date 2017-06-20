@@ -1,11 +1,7 @@
 .Home {
   display: flex;
   flex-direction: row;
-
-
 }
-
-
 
 // LEFT PANE
 .Current_project {
@@ -21,7 +17,6 @@
   @include header_primary(20px);
   color: $text-white;
   border-right: 2px dashed #efefef;
-
 
   .title {
     display: flex;
@@ -59,9 +54,40 @@
   }
 }
 
+// =====================
 // Right Pane
+// =====================
+
 .News {
   flex-grow: 1;
   width: 50%;
+}
 
+.News-nav {
+  display: flex;
+  flex-direction: column;
+  background: rgb(253, 253, 253);
+  padding: 1rem 2rem;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    font-family: menlo;
+    color: $text-gray;
+  }
+}
+
+.News-nav-link-box {
+  display: flex;
+}
+
+.News-singlePost {
+  padding: 2rem;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  background: white;
 }

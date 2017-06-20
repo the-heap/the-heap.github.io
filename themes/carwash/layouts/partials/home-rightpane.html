@@ -1,11 +1,24 @@
   <!-- CURRENT PROJECT BANNER -->
   <section class="News">
 
-    {{ range (where .Data.Pages "Section" "article") }}
-    <div class="text-box">
-        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-    </div>
+    <nav class="News-nav">
+      <h2>THE HEAP WRITES</h2>
 
+      <section class="News-nav-link-box">
+      <span> Sort By: </span>
+      <ul>
+        <li>Articles</li>
+        <li>Project Briefs</li>
+      </ul>
+      </section>
+    </nav>
+
+    <section class="News-main">
+    {{ range (where .Data.Pages "Section" "article") }}
+      <div class="News-singlePost">
+          <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      </div>
     {{ end }}
+    </section>
 
   </section>
