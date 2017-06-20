@@ -10,7 +10,7 @@
         <h3>Project Brief</h3>
         {{ .Params.project_brief }}
 
-        <h3>Project Status </h3> 
+        <h3>Project Status </h3>
         {{ if .Params.project_active  }}
           <p>This project is being actively run. You should get involved in whatever way you can!</p>
         {{else}}
@@ -27,5 +27,3 @@
 
     </article>
 </div>
-
-{{ partial "footer.html" . }}

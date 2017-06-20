@@ -45,6 +45,11 @@
   justify-content: space-around;
 
   .social-icon {
+    color: #555;
     padding: 0 2rem;
+
+    &:hover {
+      color: $accent-light;
+    }
   }
 }

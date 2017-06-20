@@ -6,7 +6,7 @@
         {{ with .Params.featured_image }}<img class="featured_image" src="{{ . }}">{{ end }}
 
         {{ with .Params.has_subscribe_btn }}
-        <h3 style="text-align: center"> Interested in contributing to this project? 
+        <h3 style="text-align: center"> Interested in contributing to this project?
           <br>
           <a class="subscribeBtn">SUBSCRIBE</a>
           to THE HEAP's email updates to stay in the loop.
@@ -17,5 +17,3 @@
         {{ .Content }}
     </article>
 </div>
-
-{{ partial "footer.html" . }}
