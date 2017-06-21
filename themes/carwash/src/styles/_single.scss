@@ -8,7 +8,7 @@
   margin: 1rem 0;
   background: #efefef;
   line-height: 1.8;
-  
+
   .post_description {
     font-size: 1.2rem;
     font-style: italic;
@@ -20,9 +20,19 @@
 
 }
 
-.post-container .featured_image {
-  width: 100%;
-  margin: 1rem 0;
+.post-container {
+  .featured_image {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  h1 {
+    margin: 4rem 0;
+  }
+
+  h2, h3 {
+    margin: 2rem 0;
+  }
 }
 
 .subscribe-btn {

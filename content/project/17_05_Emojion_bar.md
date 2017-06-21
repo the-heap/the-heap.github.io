@@ -16,7 +16,7 @@ project_brief = "Emojion Bar is an embeddable emoji reaction bar. Emojion Bar bu
 
 # Current Status
 
-This project is currently in **planning stages**. It will become open to contribution for the month of May 2017.
+This project is currently in planning stages. It will become open to contribution for the month of May 2017.
 
 
 # Links et. al

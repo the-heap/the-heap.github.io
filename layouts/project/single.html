@@ -5,7 +5,7 @@
     <article class="post-container">
 
         <!--Project Image  -->
-        {{with  .Params.featured_image }}<img class="featured_image" src="{{ . }}"> {{end}}
+        {{with .Params.featured_image }}<img class="featured_image" src="{{ . }}"> {{end}}
 
         <h3>Project Brief</h3>
         {{ .Params.project_brief }}
@@ -14,7 +14,7 @@
         {{ if .Params.project_active  }}
           <p>This project is being actively run. You should get involved in whatever way you can!</p>
         {{else}}
-          <p>This project is not being actively maintained but *is* open to contributions; just note that there may be a different, more active _The Heap_ project occupying maintainer time.
+          <p>This project is not being actively maintained but <strong>is</strong> open to contributions; just note that there may be a different, more active <i>The Heap</i> project occupying maintainer time.
         {{ end }}
 
         <h3>Contributing</h3>
