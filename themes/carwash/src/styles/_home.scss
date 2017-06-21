@@ -68,6 +68,12 @@
   flex-direction: column;
   background: rgb(253, 253, 253);
   padding: 1rem 2rem;
+  font-family: $font-courier;
+
+  h2 {
+    text-transform: uppercase;
+    color: #666;
+  }
 
   ul {
     padding: 0;
@@ -90,4 +96,5 @@
   border-top: 2px solid #eee;
   border-bottom: 2px solid #eee;
   background: white;
+  font-family: $font-courier;
 }
