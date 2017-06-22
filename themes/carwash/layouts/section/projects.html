@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 <div class="List container">
     <div class="Project-list">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "project") }} {{ range $paginator.Pages }}
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "projects") }} {{ range $paginator.Pages }}
         <div class="project-box" style="background-image: url({{.Params.featured_image}}) ">
           <div class="title_and_date"><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color: #dfdfdf;">| {{ .Date.Format "Jan 2, 2006" }}</span> </div>
           <!-- <img class="project-thumbnail" src="{{.Params.featured_image}}"/> -->
@@ -14,3 +14,5 @@
 
     </div>
 </div>
+
+{{ partial "footer.html" . }}

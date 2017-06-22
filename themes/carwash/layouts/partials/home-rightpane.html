@@ -16,7 +16,7 @@
     </nav>
 
     <section class="News-main">
-    {{ range (where .Data.Pages "Section" "article") }}
+    {{ range (where .Data.Pages "Section" "articles") }}
       <div class="News-singlePost">
           <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
 

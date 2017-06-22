@@ -28,12 +28,12 @@ Summary = true
 
 [[menu.main]]
     name = "Articles"
-    url = "/article"
+    url = "/articles/"
     weight = 2
 
 [[menu.main]]
     name = "Projects"
-    url = "/project/"
+    url = "/projects/"
     weight = 1
 
 # [[menu.main]]

@@ -3,6 +3,7 @@ date = "2017-06-18T18:24:31-04:00"
 title = "Reflection: Emojion Bar"
 author = "teesloane"
 authorLink = "http://tylersloane.com"
+customSummary = "A few reflections on the inaugaural open source project run by The Heap."
 
 +++
 
