@@ -5,3 +5,4 @@
 * Site wide
 ** TODO remove unused css from duplicatign heaps -> carwash
 ** TODO current tab should have a underline on it (JS)
+** TODO remove header partial and replace entirely with {{partial nav}}

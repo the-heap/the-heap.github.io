@@ -2,7 +2,7 @@
   <section class="News">
 
     <nav class="News-nav">
-      <h2>Recent writings from THE HEAP</h2>
+      <h2>News and Writings</h2>
 
       <section class="News-nav-link-box">
 
@@ -19,6 +19,11 @@
     {{ range (where .Data.Pages "Section" "article") }}
       <div class="News-singlePost">
           <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+
+          <section class="date-and-author">
+            <div class="author"><a href="{{ .Params.authorLink }}" target="_blank">{{ .Params.author }} |&nbsp </a></div>
+            <div class="date">{{ .Date.Format "Jan 2, 2006" }}</div>
+          </section>
       </div>
     {{ end }}
     </section>

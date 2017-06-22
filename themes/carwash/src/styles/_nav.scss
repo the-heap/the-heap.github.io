@@ -26,6 +26,18 @@
     margin-left: 2rem;
     border-left: 1px solid #efefef;
   }
+
+  .site_header {
+    @include header_primary(26px);
+    color: $text-dark;
+    padding: 0 2rem;
+    margin: 0;
+  }
+
+  // for the little tagline
+  small {
+    font-size: 10px;
+  }
 }
 
 .Nav-links {
@@ -37,6 +49,7 @@
 
   .Nav-item {
     padding: 0 2rem;
+    @include header-primary(18px);
   }
 }
 

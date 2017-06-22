@@ -1,16 +1,18 @@
 +++
 date = "2017-06-18T18:24:31-04:00"
 title = "Reflection: Emojion Bar"
+author = "teesloane"
+authorLink = "http://tylersloane.com"
 
 +++
 
 # Summary
 
-A post to discuss and reflect some thoughts on running a _The Heap_ project for the first time. 
+A post to discuss and reflect some thoughts on running a _The Heap_ project for the first time.
 
 The TL;DR / Shortlist of things I hope to expand on in this post are the following:
 
-- This project perhaps too ambitious by having three components (ie three different programming terminology)
+- This project perhaps being too ambitious by having three components (ie three different programming terminology)
 - Naming things is hard.
 - I should have pointers to resources for complete beginners -- setting up a dev environment, contributing on github/using git.
 - Pair programming was a success
@@ -26,7 +28,7 @@ The project involved three different languages: Javascript, Elm, and Python; alt
 
 {{< repodata "Emojions">}}
 
-# Start, Stop, Continue 
+# Start, Stop, Continue
 
 Here are some quick thoughts from my perspective on managing this project.
 
@@ -39,7 +41,7 @@ Here are some quick thoughts from my perspective on managing this project.
 
 - Linking to other resources for helping beginners get started
 - Make better use of the mailing list that I started
-- Perhaps create a public calendar on Gcal so people can see dates if needed. Might be overkill on the tools. 
+- Perhaps create a public calendar on Gcal so people can see dates if needed. Might be overkill on the tools.
 - Find ways to automate making videos easier.
 - Make the videos shorter in length and more to the point
 - Tweet more
