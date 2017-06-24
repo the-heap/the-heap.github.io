@@ -1,6 +1,6 @@
 baseurl = "https://theheap.us/"
 title = "The Heap"
-theme = "heaps"
+theme = "carwash"
 languageCode = "en-us"
 copyright = "THE HEAP"
 #googleAnalytics = "XXX"
@@ -28,20 +28,20 @@ Summary = true
 
 [[menu.main]]
     name = "Articles"
-    url = "/article"
+    url = "/articles/"
     weight = 2
 
 [[menu.main]]
     name = "Projects"
-    url = "/project/"
+    url = "/projects/"
     weight = 1
 
-[[menu.footer]]
-    name = "FAQ"
-    url = "/page/faq/"
-    weight = 3
+# [[menu.main]]
+#     name = "FAQ"
+#     url = "/page/faq/"
+#     weight = 3
 
-[[menu.footer]]
+[[menu.main]]
     name = "About"
     url = "/page/about/"
     weight = 4

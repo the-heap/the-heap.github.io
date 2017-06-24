@@ -1,0 +1,12 @@
+.site-header-box {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  // justify-content: space-around;
+  background: white;
+  @include header_primary(18px); // the actual text of the header
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+
+
+}

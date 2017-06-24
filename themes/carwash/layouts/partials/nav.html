@@ -1,0 +1,33 @@
+<!-- logo -->
+<a class="Nav-logo" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
+  <img width="64" src="/img/logo.png" />
+  <h1 class="site_header"> THE HEAP </h1>
+</a>
+
+<!-- nav links  -->
+<ul class="Nav-links">
+  {{ range .Site.Menus.main.ByWeight }}
+    <li class="Nav-item">
+        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+<!-- Social Links  -->
+<section class="Nav-social" >
+  {{ with .Site.Params.twitter }}
+    <a class="social-icon" title="Twitter" href="{{ . }}">
+      <i class="fa fa-twitter"></i>
+    </a>
+  {{ end }}
+
+  {{ with .Site.Params.github }}
+    <a class="social-icon" title="Github" href="{{ . }}">
+        <i class="fa fa-github-alt"></i>
+    </a>
+  {{ end }}
+
+  <a id="open-popup" class="social-icon">
+    <i class="fa fa-envelope subscribeBtn"></i>
+  </a>
+</section>

@@ -1,0 +1,30 @@
+<footer >
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="{{.Site.BaseURL}}js/main.js"></script>
+
+
+<!--MAILCHIMP-->
+<!--Customized the modal to be triggered by a button click-->
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"f5b1eb4ddcc94f3045f66153d","lid":"75524fc71c"}) })
+    document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+};
+
+// trigger the subscribe button.
+var subscribeButtons = [].slice.call(document.querySelectorAll(".subscribeBtn"));
+
+subscribeButtons.forEach(function(button){
+  button.addEventListener('click', function(){
+    showMailingPopUp();
+  })
+})
+
+</script>
+
+</body>
+</html>

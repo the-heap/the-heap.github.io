@@ -1,0 +1,68 @@
+.Nav {
+  list-style-type: none;
+  display: flex;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  .site-nav-item {
+    padding: 0 2rem;
+  }
+
+  a {
+    color: $text-dark;
+    &:hover {
+      background: $primary-dark;
+      color: $text-white;
+    }
+  }
+}
+
+.Nav-logo {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #efefef;
+
+  img {
+    margin-left: 2rem;
+    border-left: 1px solid #efefef;
+  }
+
+  .site_header {
+    @include header_primary(26px);
+    color: $text-dark;
+    padding: 0 2rem;
+    margin: 0;
+  }
+
+  // for the little tagline
+  small {
+    font-size: 10px;
+  }
+}
+
+.Nav-links {
+  flex: 2;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin: 0;
+
+  .Nav-item {
+    padding: 0 2rem;
+    @include header-primary(18px);
+  }
+}
+
+.Nav-social {
+  display: flex;
+  justify-content: space-around;
+
+  .social-icon {
+    color: #555;
+    padding: 0 2rem;
+
+    &:hover {
+      color: $accent-light;
+    }
+  }
+}

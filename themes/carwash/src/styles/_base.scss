@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", arial;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #fafafa;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+h1 {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, {
+  font-family: $font-courier;
+}
+
+a {
+  text-decoration: none;
+  color: $text-blue;
+  cursor: pointer;
+}
+
+p {
+  margin: 2.4rem 0;
+}
+
+hr {
+  margin: 4rem 0;
+}
+
+
+.site-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+  padding: 40px;
+  width: 90%;
+  align-self: center;
+}

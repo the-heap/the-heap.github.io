@@ -1,0 +1,18 @@
+<!-- This file handles the list layout for all projects. -->
+
+{{ partial "header.html" . }}
+<div class="List container">
+    <div class="Project-list">
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "projects") }} {{ range $paginator.Pages }}
+        <div class="project-box" style="background-image: url({{.Params.featured_image}}) ">
+          <div class="title_and_date"><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color: #dfdfdf;">| {{ .Date.Format "Jan 2, 2006" }}</span> </div>
+          <!-- <img class="project-thumbnail" src="{{.Params.featured_image}}"/> -->
+          <!-- {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }} -->
+          <!-- <div><a class="read-more" href="{{.RelPermalink}}">Read More &hellip;</a></div> -->
+        </div>
+      {{ end }}
+
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
