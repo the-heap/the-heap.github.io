@@ -1,0 +1,16 @@
+A new project for the heap needs the following
+
+* The Heap Tasks
+- [ ] Create new file with the date of the project in the name
+- [ ] Create a featured image
+- [ ] Write a summary (for the project list page)
+- [ ] add the the repo link to the post
+- [ ] Write a description (more detailed than the summary) - for the actual post.
+* Github
+- [ ] Create a repo
+- [ ] Link to the The Heap Resources page for newbies
+- [ ] Create a roadmap
+- [ ] Write a readme
+- [ ] Setup[[https://github.com/kentcdodds/all-contributors][ All contributors]]
+* Elsewhere
+- [ ] Create a youtube playlist
