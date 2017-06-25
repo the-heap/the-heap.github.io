@@ -1,11 +1,11 @@
-
++++
 date = "2017-04-14T19:20:11-04:00"
 tags = []
 author = "teesloane"
 description = "Regarding the projects run by The Heap"
 title = "FAQ"
-
 +++
+
 Q: _**Are these projects courses?**_
 
 A: No

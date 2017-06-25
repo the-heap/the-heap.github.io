@@ -4,7 +4,6 @@ title = "About"
 tags = []
 author = "teesloane"
 description = "Get to know The Heap"
-
 +++
 
 ## The Heap from 10,000 Feet
