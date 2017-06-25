@@ -24,7 +24,7 @@ function serializeData(repo, contributors) {
   }
 
   // makes me sad but i'm lazy.
-  var outFile = __dirname + '/../data/repo_data.json'
+  var outFile = __dirname + '/../data/repodata.json'
   fs.writeFileSync(outFile, JSON.stringify(out, null, 2))
   console.log('REPO DATA FILE WRITTEN')
 }
