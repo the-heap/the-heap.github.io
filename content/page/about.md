@@ -31,5 +31,6 @@ _In the OSS world at large_
 
 ***
 
-If you have any other questions, please check out the [FAQ page]({{< ref "page/faq.md" >}})
-If you are new to contributing to open source, consider reading our [RESOURCES page]({{< ref "page/resources.md" >}})
+If you have any other questions, please check out the [FAQ page]({{< ref "page/faq.md" >}}).
+
+If you are new to contributing to open source, consider reading our [RESOURCES page]({{< ref "page/resources.md" >}}).
