@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": {},
+  "scripts": {
+    "fetch_project_data": "npm install; node fetch_project_data.js"
+  },
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^1.7.1"

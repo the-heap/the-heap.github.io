@@ -1,5 +1,7 @@
 dev:
-	hugo server 
+	hugo server
 
 build:
-	hugo 
+	cd scripts && npm run fetch_project_data
+	cd ..
+	hugo
