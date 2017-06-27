@@ -21,6 +21,7 @@ title = "Resources"
 - Anybody can contribute to a project on The Heap - Developers, Designers, Project Managers, whatever you may be.
 - A "contribution" is a broad term to describe you, the contributor, adding something of value to our project - whether it is code, an idea, comments, creating mockups, fixing spelling errors, filing bugs, helping plan, organizing teams, and so on.
 - Our projects use *Roadmaps* (a list of what needs to be done) to determine what contributions are needed.
+- The links and information below will seem overwhelming if you are new to Open source and coding in general. Like all new things to learn, you have to work hard, push yourself and fail (and fail fast). This is my opinion, and these resources are only suggested to help make contributing to open source a bit easier, less intimidating, and all in all -- more likely for your work to be happily accepted by project maintainers. Now that I'm done with my stern-disclaimer-thing, let's move on.
 
 # Project Structure
 
@@ -36,9 +37,19 @@ Sometimes getting started and contributing can be a bit tricky, intimidating, an
 
 Here is a list of links and notes, hopefully useful in providing those new-to-opensource the tools to participate. If you have suggestions for other links please let me know via [twitter](https://twitter.com/theheap_).
 
+## Github
+
 - [How to contribute to an open source project on github](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
 > This is a video series by Kent C Dodds. I have not actually watched this but I am certain it's very useful; both by his reputations as an excellent open source advocate, and ... just a gut feeling I have. I think that this video series will likely give you what you need to become familiar with Github, what pull requests are and how to get started navigating an open source project.
+
+## The "Learn Enough Series"
+
+If you are not familiar with Git, Text editors and the Command Line you may have a hard time keeping up with a The Heap project. The `Learn Enough` series can be useful for getting up to date with some essential Developer Tools.
+
+- [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
+- [Learn Enough Text Editor to be Dangerous](https://www.learnenough.com/text-editor-tutorial)
+- [Learn Enough Git to be Dangerous](https://www.learnenough.com/git-tutorial)
 
 # General Notes / Recommendations
 
