@@ -2,7 +2,8 @@
 
 date = "2017-07-01T20:26:43-04:00"
 title = "Penny"
-featured_image = "/img/projects/penny/featured.png"
+featured_image = "/img/projects/penny/featured.jpeg"
+thumbnail = "/img/projects/penny/thumbnail.jpeg"
 summary = "Building: A slackbot to encourage your team to draw more!"
 
 contributing_link = "https://github.com/the-heap/penny/blob/master/CONTRIBUTING.md"
