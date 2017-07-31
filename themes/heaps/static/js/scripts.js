@@ -1,4 +1,0 @@
-// ------  SETUP ------ //
-hljs.initHighlightingOnLoad();
-
-
