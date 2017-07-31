@@ -1,7 +1,7 @@
 <!-- This file handles the list layout for all projects. -->
 
 {{ partial "header.html" . }}
-<div class="List container">
+<div class="List">
     <div class="Project-list">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "projects") }} {{ range $paginator.Pages }}
         <a href="{{ .RelPermalink }}">
