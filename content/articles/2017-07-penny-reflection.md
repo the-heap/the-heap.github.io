@@ -13,7 +13,7 @@ Our second project was a lot of fun. Six contributors built a slack bot in node.
 
 We also had a logo created for Penny, thanks to contributor [GringoGidget](https://github.com/gringogidget) !
 
-![](/img/projects/penny/thumbnail.png)
+![](/img/projects/penny/reflection_img.png)
 
 # Project Recap
 
