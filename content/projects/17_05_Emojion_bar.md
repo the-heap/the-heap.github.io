@@ -1,6 +1,6 @@
 +++
 
-date = "2017-04-22T20:26:43-04:00"
+date = "2017-05-01T20:26:43-04:00"
 title = "Emojion Bar"
 featured_image = "/img/projects/emojion/featured.jpeg"
 thumbnail = "/img/projects/emojion/thumbnail.jpeg"
