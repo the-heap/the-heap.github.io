@@ -22,19 +22,34 @@ Summary = true
     #email = "XXX@example.com"
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"
+    media_prefix = "https://archive.org/thing"
+
+  [Params.sicpod.feed]
+    feed_copyright = "Copyright 2016 Tees" 
+    itunes_subtitle = "SICPOD"
+    itunes_author = "tyler sloane" #no markdown or HTML
+    itunes_summary = "placeholder"
+    itunes_owner_name = "placeholder"
+    itunes_owner_email = "jrdnbntr@gmail.com"
+    itunes_image = "https://www.arresteddevops.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
+    itunes_top_category = "Technology"
+    itunes_first_sub_category = "Software How-To"
+    itunes_second_sub_category = "Tech News"
+
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
-[[menu.main]]
-    name = "Articles"
-    url = "/articles/"
-    weight = 2
 
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
     weight = 1
+
+[[menu.main]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 2
 
 # [[menu.main]]
 #     name = "FAQ"
