@@ -22,16 +22,16 @@ Summary = true
     #email = "XXX@example.com"
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"
-    media_prefix = "https://archive.org/thing"
+    media_prefix = "https://archive.org/download/"
 
   [Params.sicpod.feed]
-    feed_copyright = "Copyright 2016 Tees" 
+    feed_copyright = "2017" 
     itunes_subtitle = "SICPOD"
-    itunes_author = "tyler sloane" #no markdown or HTML
-    itunes_summary = "placeholder"
-    itunes_owner_name = "placeholder"
+    itunes_author = "tees"
+    itunes_summary = "Readings, Discussions, and Ramblings on the Structure and Interpretation of Computer Programs"
+    itunes_owner_name = "tees"
     itunes_owner_email = "jrdnbntr@gmail.com"
-    itunes_image = "https://www.arresteddevops.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
+    itunes_image = "https://theheap.us/img/sicpod_art.jpg"
     itunes_top_category = "Technology"
     itunes_first_sub_category = "Software How-To"
     itunes_second_sub_category = "Tech News"
