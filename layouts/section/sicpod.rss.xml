@@ -20,6 +20,7 @@
     <itunes:author>{{ .Site.Params.sicpod.feed.itunes_author }}</itunes:author>
     <itunes:summary>{{ .Site.Params.sicpod.feed.itunes_summary }}</itunes:summary>
     <description>{{ .Site.Params.sicpod.feed.itunes_summary }}</description>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
     <itunes:name>{{ .Site.Params.sicpod.feed.itunes_owner_name }}</itunes:name>
     <itunes:email>{{ .Site.Params.sicpod.feed.itunes_owner_email }}</itunes:email>
