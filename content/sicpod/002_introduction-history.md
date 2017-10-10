@@ -4,7 +4,7 @@ title = "002 - Introduction and History"
 Description = "Episode 2 launches into the material of SICP with some readings and question asking."
 explicit = "no"
 podcast_duration = "900"
-podcast_file = "sicpod_001_preface/sicpod_001_preface.mp3"
+podcast_file = "sicpod_002_Introductions_and_history/sicpod_002_Introductions_and_history.mp3"
 podcast_bytes = ""
 tags = []
 
