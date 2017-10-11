@@ -39,8 +39,9 @@
         <item>
           <title>{{ title .Title }}</title>
           <itunes:author> {{ .Site.Params.itunes_author }}</itunes:author>
-          <itunes:summary><![CDATA[{{ .Description | markdownify }}]></itunes:summary>
-          <description><![CDATA[{{ .Description | markdownify }}]></description>
+          <itunes:summary><![CDATA[{{ .Params.Overview }}]></itunes:summary>
+          <description><![CDATA[{{ .Params.Overview }}]></description>
+          <content:encoded><![CDATA[{{ .Description | markdownify }}]></content:encoded>
           <enclosure url="{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/mpeg" />
           <guid>{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}</guid>
           <link>{{ .Permalink }}</link>
