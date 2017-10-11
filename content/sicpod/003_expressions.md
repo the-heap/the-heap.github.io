@@ -4,7 +4,7 @@ title = "003 - Expressions!"
 Overview = "Ep 3! We talk about primitives, special forms, syntax and tees wraps up by rambling about trees."
 Description = '''
 ## Overview
-Episode 3! Woah! Wow! Here's a quick glance at what gets done:
+Episode 3! Woah! Wow! Here is a quick glance at what gets done:
 
 - primitive expressions, means of combination means an means of abstractions
 - repl - and evaluating combinations as a recursive thing.
