@@ -41,10 +41,10 @@ Summary = true
     post = "/:year/:month/:day/:filename/"
 
 
-[[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 1
+# [[menu.main]]
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 1
 
 [[menu.main]]
     name = "Articles"
@@ -56,7 +56,7 @@ Summary = true
 #     url = "/page/faq/"
 #     weight = 3
 
-[[menu.main]]
-    name = "About"
-    url = "/page/about/"
-    weight = 4
+# [[menu.main]]
+#    name = "About"
+#    url = "/page/about/"
+#    weight = 4
