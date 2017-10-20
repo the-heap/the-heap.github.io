@@ -4,9 +4,9 @@
     @include header_primary(30px);
   }
   .summary {
-    margin: 2rem 0 4rem;
+    margin: 2rem 0;
   }
   .title {
-    @include header_primary(18px);
+    @include header_primary(14px);
   }
 }

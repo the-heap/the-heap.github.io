@@ -4,9 +4,9 @@
     <div class="post-list">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "articles") }} {{ range $paginator.Pages }}
         <div class="summary">
-          <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a> | {{ .Date.Format "Jan 2, 2006" }} </div>
-          {{ .Params.customSummary }}
-          <div><a class="read-more" href="{{.RelPermalink}}">Read More &hellip;</a></div>
+          <div class="title"><a href="{{ .RelPermalink }}">• {{ .Title }}</a> | {{ .Date.Format "Jan 2, 2006" }} </div>
+          <!-- {{ .Params.customSummary }} -->
+          <!-- <div><a class="read-more" href="{{.RelPermalink}}">Read More &hellip;</a></div> -->
         </div>
       {{ end }}
 

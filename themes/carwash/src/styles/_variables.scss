@@ -9,6 +9,11 @@ $text-gray: #bbb;
 $text-dark: #444;
 $text-blue: #3498db;
 
-$font-primary: "Roboto Condensed", Arial, Helvetica;
-$font-accent: "Roboto Condensed";
+$font-primary: "Heebo", Arial, Helvetica;
+$font-accent: "Heebo";
 $font-courier: "Menlo", "Monaco", courier;
+
+// Headings
+$heading-primary:  normal  20px/28px $font-primary;
+$heading-small:  normal  14px/28px $font-primary;
+
